@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="reference|color"/>
+    <attr name="loginBg" format="reference|color"/>
+    <attr name="inMeet" format="reference|color"/>
+    <attr name="meetBg" format="reference|color"/>
+    <attr name="hintClr" format="reference|color"/>
+</resources>

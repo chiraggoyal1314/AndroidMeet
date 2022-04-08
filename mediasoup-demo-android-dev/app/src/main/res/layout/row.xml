@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10sp">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/user_pratikshya"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/name_participant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/rowMic"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_weight="3"
+        android:text="Name"
+        android:textSize="24sp"
+        android:layout_marginLeft="8dp"/>
+
+    <ImageView
+        android:id="@+id/rowMic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_mic_black_on"
+        android:backgroundTint="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/rowVideo"
+        android:layout_marginRight="16dp"
+        />
+    <ImageView
+        android:id="@+id/rowVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_video_white_off"
+        android:backgroundTint="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"
+        />
+
+</RelativeLayout>
