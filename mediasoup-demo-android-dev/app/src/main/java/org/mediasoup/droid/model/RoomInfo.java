@@ -1,4 +1,4 @@
-package org.mediasoup.droid.lib.model;
+package org.mediasoup.droid.model;
 
 import static org.mediasoup.droid.lib.RoomClient.ConnectionState;
 import static org.mediasoup.droid.lib.RoomClient.ConnectionState.NEW;

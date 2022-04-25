@@ -11,7 +11,7 @@ import androidx.lifecycle.LifecycleOwner;
 import org.mediasoup.droid.demo.R;
 import org.mediasoup.droid.lib.RoomClient;
 import org.mediasoup.droid.lib.lv.RoomStore;
-import org.mediasoup.droid.lib.model.RoomInfo;
+import org.mediasoup.droid.model.RoomInfo;
 
 public class RoomProps extends EdiasProps {
 

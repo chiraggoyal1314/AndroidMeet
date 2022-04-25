@@ -42,9 +42,9 @@ import org.mediasoup.droid.lib.PeerConnectionUtils;
 import org.mediasoup.droid.lib.RoomClient;
 import org.mediasoup.droid.lib.RoomOptions;
 import org.mediasoup.droid.lib.lv.RoomStore;
-import org.mediasoup.droid.lib.model.Me;
-import org.mediasoup.droid.lib.model.Notify;
-import org.mediasoup.droid.lib.model.Peer;
+import org.mediasoup.droid.model.Me;
+import org.mediasoup.droid.model.Notify;
+import org.mediasoup.droid.model.Peer;
 
 import java.lang.reflect.Method;
 import java.util.List;
@@ -68,9 +68,9 @@ public class RoomActivity extends AppCompatActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     mBinding = DataBindingUtil.setContentView(this, R.layout.activity_room);
-    getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN);
-    getSupportActionBar().hide();
+//    getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//    getSupportActionBar().hide();
     createRoom();
     checkPermission();
 

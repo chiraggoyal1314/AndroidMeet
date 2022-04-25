@@ -11,7 +11,7 @@ import androidx.databinding.BindingAdapter;
 
 import org.mediasoup.droid.demo.vm.MeProps;
 import org.mediasoup.droid.lib.RoomClient;
-import org.mediasoup.droid.lib.model.DeviceInfo;
+import org.mediasoup.droid.model.DeviceInfo;
 import org.webrtc.SurfaceViewRenderer;
 import org.webrtc.VideoTrack;
 

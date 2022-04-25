@@ -9,13 +9,13 @@ import org.json.JSONObject;
 import org.mediasoup.droid.Consumer;
 import org.mediasoup.droid.Producer;
 import org.mediasoup.droid.lib.RoomClient;
-import org.mediasoup.droid.lib.model.Consumers;
-import org.mediasoup.droid.lib.model.DeviceInfo;
-import org.mediasoup.droid.lib.model.Me;
-import org.mediasoup.droid.lib.model.Notify;
-import org.mediasoup.droid.lib.model.Peers;
-import org.mediasoup.droid.lib.model.Producers;
-import org.mediasoup.droid.lib.model.RoomInfo;
+import org.mediasoup.droid.model.Consumers;
+import org.mediasoup.droid.model.DeviceInfo;
+import org.mediasoup.droid.model.Me;
+import org.mediasoup.droid.model.Notify;
+import org.mediasoup.droid.model.Peers;
+import org.mediasoup.droid.model.Producers;
+import org.mediasoup.droid.model.RoomInfo;
 
 /**
  * Room state.

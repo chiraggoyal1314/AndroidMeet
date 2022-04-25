@@ -16,7 +16,7 @@ import org.mediasoup.droid.demo.view.PeerView;
 import org.mediasoup.droid.demo.vm.PeerProps;
 import org.mediasoup.droid.lib.RoomClient;
 import org.mediasoup.droid.lib.lv.RoomStore;
-import org.mediasoup.droid.lib.model.Peer;
+import org.mediasoup.droid.model.Peer;
 
 import java.util.LinkedList;
 import java.util.List;

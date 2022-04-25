@@ -295,7 +295,6 @@ public class RoomClient extends RoomMessageHandler {
   @Async
   public void handRaise() {
     Logger.d(TAG, "handRaise()");
-//    mStore.setAudioMutedState(false);
     mWorkHandler.post(
             () -> {
               for (ConsumerHolder holder : mConsumers.values()) {

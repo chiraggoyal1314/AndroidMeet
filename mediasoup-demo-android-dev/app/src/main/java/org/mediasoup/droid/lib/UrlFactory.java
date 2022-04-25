@@ -5,11 +5,12 @@ import java.util.Locale;
 public class UrlFactory {
 
 //  private static final String HOSTNAME = "v3demo.mediasoup.org";
-    private static final String HOSTNAME = "192.168.1.183";
+    private static final String HOSTNAME = "192.168.1.183"/*"s183.lsinternal.com"*/;
   private static final int PORT = 4443;
 
   public static String getInvitationLink(String roomId, boolean forceH264, boolean forceVP9) {
-    String url = String.format(Locale.US, "https://%s/?roomId=%s", HOSTNAME, "libsys"/*roomId*/);
+    String url = String.format(Locale.US, "https://%s/?roomId=%s", HOSTNAME, "libsys");
+//    String url = String.format(Locale.US, "https://%s/?roomId=%s", HOSTNAME,roomId);
     if (forceH264) {
       url += "&forceH264=true";
     } else if (forceVP9) {
@@ -18,11 +19,9 @@ public class UrlFactory {
     return url;
   }
 
-  public static String getProtooUrl(
-          String roomId, String peerId, boolean forceH264, boolean forceVP9) {
-    String url =
-            String.format(
-                    Locale.US, "wss://%s:%d/?roomId=%s&peerId=%s", HOSTNAME, PORT, "libsys"/*roomId*/, peerId);
+  public static String getProtooUrl(String roomId, String peerId, boolean forceH264, boolean forceVP9) {
+    String url = String.format(Locale.US, "wss://%s:%d/?roomId=%s&peerId=%s", HOSTNAME, PORT, "libsys", peerId);
+//    String url = String.format(Locale.US, "wss://%s:%d/?roomId=%s&peerId=%s", HOSTNAME, PORT, roomId, peerId);
     if (forceH264) {
       url += "&forceH264=true";
     } else if (forceVP9) {

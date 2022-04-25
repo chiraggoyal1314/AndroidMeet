@@ -2,7 +2,7 @@ package org.mediasoup.droid.lib;
 
 import androidx.annotation.NonNull;
 
-import org.mediasoup.droid.lib.model.DeviceInfo;
+import org.mediasoup.droid.model.DeviceInfo;
 
 public class RoomOptions {
 

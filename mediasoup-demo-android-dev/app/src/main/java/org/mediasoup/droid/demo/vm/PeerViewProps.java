@@ -7,7 +7,7 @@ import androidx.databinding.ObservableField;
 
 import org.json.JSONArray;
 import org.mediasoup.droid.lib.lv.RoomStore;
-import org.mediasoup.droid.lib.model.Info;
+import org.mediasoup.droid.model.Info;
 import org.webrtc.AudioTrack;
 import org.webrtc.VideoTrack;
 

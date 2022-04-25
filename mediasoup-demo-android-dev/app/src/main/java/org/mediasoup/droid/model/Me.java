@@ -1,4 +1,4 @@
-package org.mediasoup.droid.lib.model;
+package org.mediasoup.droid.model;
 
 public class Me extends Info {
 

@@ -1,4 +1,4 @@
-package org.mediasoup.droid.lib.model;
+package org.mediasoup.droid.model;
 
 import org.mediasoup.droid.lib.Utils;
 

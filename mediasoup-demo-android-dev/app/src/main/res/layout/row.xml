@@ -18,12 +18,12 @@
         android:id="@+id/name_participant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
         android:layout_toLeftOf="@+id/rowMic"
         android:layout_toRightOf="@+id/avatar"
         android:layout_weight="3"
         android:text="Name"
-        android:textSize="24sp"
-        android:layout_marginLeft="8dp"/>
+        android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/rowMic"

@@ -1,74 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="?attr/meetBg"
-    android:gravity="center_vertical"
-    tools:context=".vm.LoginActivity">
+<layout>
 
-    <LinearLayout
-        android:id="@+id/llout"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/roundable2"
-        android:backgroundTint = "?attr/loginBg"
+        android:layout_height="match_parent"
+        android:background="?attr/meetBg"
         android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:padding="20dp">
+        tools:context=".vm.LoginActivity">
 
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_lsmeet" />
-
-        <Switch
-            android:id="@+id/mode"
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"
-            android:layout_gravity="center"
-            tools:ignore="UseSwitchCompatOrMaterialXml" />
-
-        <EditText
-            android:id="@+id/username"
+        <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:backgroundTint="#3876C0"
-            android:hint="Enter your name"
-            android:textColorHint="?attr/hintClr"
-            android:textColor="?attr/textColor"
-            android:textSize="20dp" />
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/roundable2"
+            android:backgroundTint="?attr/loginBg"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <EditText
-            android:id="@+id/code"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:backgroundTint="#3876C0"
-            android:hint="Enter meeting code"
-            android:textColorHint="?attr/hintClr"
-            android:textColor="?attr/textColor"
-            android:textSize="20dp" />
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_lsmeet" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/roundable"
-            android:backgroundTint="@color/meetBg"
-            android:text="Continue"
-            android:textColor="@color/white" />
+            <Switch
+                android:id="@+id/themeMode"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
 
-    </LinearLayout>
-</RelativeLayout>
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#3876C0"
+                android:hint="Enter your name"
+                android:textColor="?attr/textColor"
+                android:textColorHint="?attr/hintClr"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/meetingCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#3876C0"
+                android:hint="Enter meeting code"
+                android:textColor="?attr/textColor"
+                android:textColorHint="?attr/hintClr"
+                android:textSize="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/joinMeeting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/roundable"
+                android:backgroundTint="@color/meetBg"
+                android:text="Continue"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
+
 

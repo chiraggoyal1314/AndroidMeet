@@ -11,8 +11,8 @@ import androidx.lifecycle.LifecycleOwner;
 import org.mediasoup.droid.Producer;
 import org.mediasoup.droid.lib.RoomClient;
 import org.mediasoup.droid.lib.lv.RoomStore;
-import org.mediasoup.droid.lib.model.Me;
-import org.mediasoup.droid.lib.model.Producers;
+import org.mediasoup.droid.model.Me;
+import org.mediasoup.droid.model.Producers;
 import org.webrtc.AudioTrack;
 import org.webrtc.VideoTrack;
 
